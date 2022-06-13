@@ -1,0 +1,29 @@
+/* CORES> Orange Yellow Crayola: FED766, 
+          Middle Red: DB8A74, 
+          Catawba: 69353F, 
+          Maximum Blue Purple: B79CED, 
+          Cyber Grape: 49306B */
+
+
+@charset "UTF-8";
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: linear-gradient(45deg, #69353F, #DB8A74, #FED766 );
+    
+}
+main {
+    margin: auto;
+    width: 600px;
+}
+
+.imagem {
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #b79cedbb;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+}
