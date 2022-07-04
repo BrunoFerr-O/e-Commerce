@@ -3,21 +3,61 @@
           Catawba: 69353F, 
           Maximum Blue Purple: B79CED, 
           Cyber Grape: 49306B */
-
-
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,400;1,500;1,600;1,700&display=swap');
 
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding: 0;
+    margin: 0;   
 }
 
 body {
     background-image: linear-gradient(45deg, #69353F, #DB8A74, #FED766 );
     
 }
-main {
-    margin: auto;
-    width: 600px;
+
+header {
+    background-color: #6f23d3;
+    border: 0.1em solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    padding: 0.4em 2em 0.1em 5em
+    
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+
+.produtos {
+    margin-top: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 10em;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+    
 }
 
 .imagem {
@@ -26,4 +66,11 @@ main {
     width: 200px;
     height: 150px;
     padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    height: 2em;
 }
